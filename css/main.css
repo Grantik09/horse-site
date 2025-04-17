@@ -2165,7 +2165,7 @@ img {
   position: relative;
 }
 .page-home .site-header .title {
-  background: url(../images/wr-home-top.jpg) no-repeat top;
+  background: url(../images/header.png) no-repeat top;
   background-size: cover;
   padding-bottom: 70.2753441802%;
   margin: 0;
@@ -2174,7 +2174,7 @@ img {
 }
 @media screen and (min-width: 75em) {
   .page-home .site-header .title:after {
-    background: -webkit-linear-gradient(
+    /* background: -webkit-linear-gradient(
       top,
       transparent,
       rgba(243, 8, 85, 0.85) 99%,
@@ -2185,7 +2185,7 @@ img {
       transparent 0,
       rgba(243, 8, 85, 0.85) 99%,
       rgba(245, 8, 86, 0.85)
-    );
+    ); */
     content: "";
     height: 3.75rem;
     width: 100%;
@@ -2218,7 +2218,7 @@ img {
   }
 }
 .home-about {
-  background: #f50856;
+  background: #bbd451;
   color: #fff;
   padding: 5rem 0;
   text-align: center;
@@ -2273,7 +2273,7 @@ img {
   width: 14.75rem;
 }
 .home-story {
-  background: url(../images/wr-home-about.jpg) no-repeat bottom;
+  background: url(../images/wr-home-about.png) no-repeat bottom;
   background-size: cover;
   color: #fff;
   text-align: center;
