@@ -1964,7 +1964,8 @@ img {
   max-width: 100%;
 }
 .content {
-  font-style: italic;
+  font-size: 1.5rem;
+  font-style: normal;
 }
 .site-nav {
   background: url(../images/star-pattern.png) 50% hsla(0, 0%, 100%, 0.2);
@@ -2000,7 +2001,7 @@ img {
   font-weight: 700;
 }
 .site-nav a:hover {
-  color: #f50856;
+  color: #ffc400;
 }
 @media screen and (min-width: 40em) {
   .site-nav a {
@@ -2109,14 +2110,14 @@ img {
 }
 .site-logo {
   display: block;
-  background: url(../images/wr-logo-white.png) no-repeat;
+  background: url(../images/wr-logo1-white.png) no-repeat;
   height: 3.5rem;
   width: 15.1875rem;
   text-indent: -999em;
   margin: 0 auto 2.5rem;
 }
 .site-logo.dark {
-  background: url(../images/wr-logo-black.png) no-repeat;
+  background: url(../images/wr-logo1-black.png) no-repeat;
 }
 @media screen and (min-width: 64em) {
   .site-logo {
@@ -2155,23 +2156,32 @@ img {
   font-size: 1.125rem;
 }
 .footer-nav a:hover {
-  color: #f50856;
+  color: #ffc400;
 }
 .footer-legal {
   color: #555;
   font-size: 1.125rem;
 }
-.page-home .site-header {
-  position: relative;
-}
 .page-home .site-header .title {
   background: url(../images/header.png) no-repeat top;
+  background-position: 0px -200px;
   background-size: cover;
-  padding-bottom: 70.2753441802%;
+  padding-bottom: 55%;
   margin: 0;
   text-indent: -999em;
   position: relative;
+  overflow: hidden;
 }
+
+.page-home .site-header .title .logo-img {
+  position: absolute;
+  top: 20px; /* Distance from top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Perfect centering */
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+}
+
 @media screen and (min-width: 75em) {
   .page-home .site-header .title:after {
     /* background: -webkit-linear-gradient(
@@ -2458,7 +2468,8 @@ img {
   }
 }
 .page-bikes .site-header {
-  background: url(../images/wr-unicorn-header.png) no-repeat top;
+  background: url(../images/flybike.jpg) no-repeat top;
+  background-position: 0px -182px;
   background-size: cover;
   text-align: center;
   padding: 1.875rem 0;
@@ -2525,7 +2536,7 @@ img {
   color: #ffc400;
 }
 .page-investors .top-section {
-  background: url(../images/wr-investors-header.png) no-repeat bottom;
+  background: url(../images/newimg.png) no-repeat bottom;
   background-size: cover;
   text-align: center;
   padding: 1.875rem 0;
@@ -2536,7 +2547,7 @@ img {
   }
 }
 .investors-list {
-  color: #fff;
+  color: #000000;
   text-align: center;
 }
 @media screen and (min-width: 64em) {
